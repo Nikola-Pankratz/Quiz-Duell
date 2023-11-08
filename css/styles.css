@@ -1,0 +1,59 @@
+body {
+  margin: 0rem;
+}
+header {
+  width: 100%;
+  background-color: rgb(62, 57, 31);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+}
+
+header > h1 {
+  color: rgb(248, 244, 244);
+  font-style: normal;
+  text-transform: uppercase;
+}
+main {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  color: rgb(7, 6, 6);
+  font-size: 20px;
+  background-color: rgb(161, 211, 187);
+  width: 20rem;
+  height: 10rem;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.answer {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 8rem;
+  align-self: center;
+  border: 0rem;
+}
+footer {
+  background-color: rgba(16, 54, 20, 0.578);
+  display: flex;
+  height: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  justify-content: space-around;
+}
