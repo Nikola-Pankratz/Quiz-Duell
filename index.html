@@ -8,16 +8,30 @@
   </head>
 
   <body>
-    <header>
-      <h1>Quiz APP</h1>
-    </header>
+    <div class="rectangleTop"></div>
+    <div class="rectangleBottom"></div>
 
-    <main>
+    <h1>Quiz APP</h1>
+
+    <main class="main-container">
+      <div class="card" id="cardsWrapper">
+        <h2>The question</h2>
+        <button class="answer">Show answer</button>
+        <ul>
+          <li><button class="category">html</button></li>
+          <li><button class="category">flexbox</button></li>
+          <li><button class="category">css</button></li>
+        </ul>
+      </div>
+
       <div class="card">
         <h2>The question</h2>
         <button class="answer">Show answer</button>
       </div>
-
+      <div class="card">
+        <h2>The question</h2>
+        <button class="answer">Show answer</button>
+      </div>
       <div class="card">
         <h2>The question</h2>
         <button class="answer">Show answer</button>
@@ -29,10 +43,11 @@
     </main>
 
     <footer>
-      <img src="img/home-heart-regular-24.png" /><img
-        src="img/bookmark-heart-regular-24.png"
-      />
-      <img src="img/face-regular-24.png" />
+      <nav>
+        <img src="img/home-heart-regular-24.png" />
+        <img src="img/bookmark-heart-regular-24.png" />
+        <img src="img/face-regular-24.png" />
+      </nav>
     </footer>
   </body>
 </html>
