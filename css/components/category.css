@@ -1,0 +1,14 @@
+.category {
+  border-radius: 0.6rem;
+  height: 1rem;
+  width: 3.5rem;
+  border: 0rem;
+  background-color: rgb(26, 84, 17);
+  color: rgb(208, 232, 220);
+}
+
+ul {
+  gap: 0.4rem;
+  list-style: none;
+  display: flex;
+}
