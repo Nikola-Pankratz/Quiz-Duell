@@ -1,0 +1,12 @@
+nav {
+  background-color: rgba(16, 54, 20, 0.578);
+  height: 3rem;
+  width: 100%;
+  bottom: 0rem;
+  border-radius: 1rem;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-around;
+}
