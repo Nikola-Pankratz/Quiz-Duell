@@ -1,0 +1,43 @@
+.pictureAndHeadline {
+  padding-top: 130px;
+  color: rgba(16, 54, 20, 0.726);
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.maxPhoto {
+  border-radius: 3rem;
+  border: 2px solid rgb(129, 118, 66);
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.aboutmeHeadline {
+  font-size: 2rem;
+  color: rgb(129, 118, 66);
+}
+.aboutMeContent {
+  font-size: 12px;
+}
+.buttonsCounter {
+  padding-top: 20px;
+  color: rgba(16, 54, 20, 0.726);
+  display: flex;
+  justify-content: space-evenly;
+}
+.counterQuestions {
+  display: flex;
+  border-radius: 9px;
+  background-color: rgb(162, 155, 122);
+  width: 80px;
+}
+.counterBookmarks {
+  display: flex;
+  border-radius: 9px;
+  background-color: rgb(162, 155, 122);
+  width: 80px;
+}
